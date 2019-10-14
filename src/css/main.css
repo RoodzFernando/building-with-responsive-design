@@ -1,49 +1,115 @@
 /* General rules */
-header{
-    display: flex; 
+header {
+    display: flex;
     /* background: orchid; */
     /* justify-content: space-between; */
 }
-.logo{
+
+.logo {
     width: 100px;
     height: 50px;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
 }
-header li{
+
+header li {
     list-style: none;
     margin-right: 1.2em;
 }
-header a{
+
+header a {
     text-decoration: none;
-    color:#aaa;
+    color: #aaa;
     text-transform: uppercase;
 }
-.search-button{
+
+.search-button {
     display: flex;
     width: 50%;
     /* align-content: flex-end; */
     justify-content: flex-end;
 }
+
 /*  */
-.upcoming{
+.blockchain {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    background: yellow;
+    margin-top: 1px;
+    margin-bottom: 3px;
+}
+
+.blockchain p {
+    margin-left: 1em;
+    font-size: 0.8rem;
+}
+
+.upcoming {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-areas: 
-    "distract gear"
-    "distract insight";
+    grid-template-areas:
+        "distract gear"
+        "distract insight";
+    height: 500px;
     grid-gap: 10px;
+    color: white;
 }
-.gear{
+
+.upcoming a {
+    color: white;
+    text-decoration: none;
+}
+
+.gear {
     grid-area: gear;
     background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F04%2FiPhoneSE10TNW.jpg&signature=bc7b45ce8b94fcc92e6790ecb27b1503");
 }
-.insight{
+
+.insight {
     grid-area: insight;
     background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fsextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack.jpg&signature=dd33197d6fdcc80391ee010ad5414fb3");
 }
-.distract{
+
+.distract {
     grid-area: distract;
-    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Fortnite-Black-Hole-796x417.jpg");
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Fortnite-Black-Hole-796x417.jpg");
+}
+
+.news-header {
+    margin-top: 5%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    color: red;
+
+}
+
+.latest-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 70%;
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+.latest-post-contents {}
+
+.latest-post-contents p {
+    font-weight: bold;
+    padding: 0;
+}
+
+.latest-post-contents span {
+    font-size: 0.8rem;
+    color: #aaa;
+
+}
+
+.latest-post-contents img {
+    height: 60%;
+    width: 100%;
 }
