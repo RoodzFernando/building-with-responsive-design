@@ -1,1 +1,49 @@
 /* General rules */
+header{
+    display: flex; 
+    /* background: orchid; */
+    /* justify-content: space-between; */
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.nav-links{
+    display: flex;
+}
+header li{
+    list-style: none;
+    margin-right: 1.2em;
+}
+header a{
+    text-decoration: none;
+    color:#aaa;
+    text-transform: uppercase;
+}
+.search-button{
+    display: flex;
+    width: 50%;
+    /* align-content: flex-end; */
+    justify-content: flex-end;
+}
+/*  */
+.upcoming{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "distract gear"
+    "distract insight";
+    grid-gap: 10px;
+}
+.gear{
+    grid-area: gear;
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F04%2FiPhoneSE10TNW.jpg&signature=bc7b45ce8b94fcc92e6790ecb27b1503");
+}
+.insight{
+    grid-area: insight;
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fsextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack.jpg&signature=dd33197d6fdcc80391ee010ad5414fb3");
+}
+.distract{
+    grid-area: distract;
+    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Fortnite-Black-Hole-796x417.jpg");
+}
