@@ -115,6 +115,7 @@ header a {
     width: 100%;
 }
 /*  */
+
 .companies  *{
     margin: 0;
 }
@@ -127,6 +128,38 @@ header a {
     grid-gap: 15px;
     grid-template-columns: repeat(4, 1fr);
     
+}
+.comp-header{
+    /* border: 1px solid #000; */
+    display: flex;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+.comp-header h2{
+    color: red;
+    font-size: 1.7rem;
+}
+.comp-header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.comp-header ul li{
+    /* border: 1px solid #000; */
+    padding-top: 5px;
+    margin-left: 15px;
+    list-style: none;
+    /* padding-right: 5px; */
+}
+.comp-header ul li {
+    border-right: 1px solid #000;
+    border-color: #f42;
+    padding-right: 5px;
+    text-decoration: none;
+    color:#f42;
+    font-size: 1.1rem;
+}
+.comp-header ul li:last-child{
+    border-right: 0;
 }
 .comp-body{
     /* border: 1px solid #000; */
