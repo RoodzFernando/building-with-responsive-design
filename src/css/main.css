@@ -210,3 +210,78 @@ header a {
     text-decoration: none;
     color: #aaa;;
 }
+/*apps gear tech  */
+.post-news * {
+    margin: 0;
+}
+.post-news{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 25px;
+    width: 85%;
+    margin: auto;
+}
+.post-news-updates{
+    /* border: 1px solid #000; */
+}
+.latest img{
+    width: 100px;
+    height: auto;
+}
+.header-img1{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-1-1-796x417.jpg");
+    height: 250px;
+}
+.header-img2{
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F06%2FMate-X.jpg&signature=ae2465db6c5f9885c2e982d18a1421d7");
+    height: 250px;
+}
+.header-img3{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design2-796x417.png");
+    height: 250px;
+}
+.header-img4{
+    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png");
+    height: 250px;
+}
+.header-img5{
+    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FUntitled-design121.png&signature=871749e6acf570b6ee9d81754510d4a3");
+    height: 250px;
+}
+.header-img6{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/PVtrump-796x436.jpg");
+    height: 250px;
+}
+.header-img7{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg");
+    height: 250px;
+}
+.header-img8{
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Disney-Plus-796x417.jpg");
+    height: 250px;
+}
+.latest{
+    display: flex;
+}
+.text-header{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.latest{
+    color:#f42;
+}
+.latest-list-updates{
+    color:grey;
+}
+.latest-list-updates li::before{
+    content: "\2022"; 
+  color: red; 
+  /* font-weight: bold;  */
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
+}
