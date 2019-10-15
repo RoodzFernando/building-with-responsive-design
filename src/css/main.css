@@ -350,3 +350,30 @@ header a {
     width: 1em;
     margin-left: -1em;
 }
+
+.bottom-updates {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+/* .bottom-header {
+    grid-row: 1/-1;
+    border: 1px solid #000;
+} */
+
+.bottom-updates-items img {
+    width: 100%;
+}
+
+.bottom-updates-items p {
+    font-weight: bolder;
+}
+
+.old-price {
+    color: gray;
+    font-size: 0.8em;
+}
