@@ -33,7 +33,9 @@ header a {
     justify-content: flex-end;
 }
 
+
 /*  */
+
 .blockchain {
     display: flex;
     height: 30px;
@@ -51,9 +53,7 @@ header a {
 .upcoming {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-        "distract gear"
-        "distract insight";
+    grid-template-areas: "distract gear""distract insight";
     height: 500px;
     grid-gap: 10px;
     color: white;
@@ -85,19 +85,20 @@ header a {
     margin-left: auto;
     margin-right: auto;
     color: red;
+}
 
+.news-header h2 {
+    font-weight: bolder;
 }
 
 .latest-news {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    width: 85%;
+    width: 70%;
     grid-gap: 15px;
     margin: 0 auto;
 }
-
-/* .latest-post-contents {} */
 
 .latest-post-contents p {
     font-weight: bold;
@@ -107,181 +108,245 @@ header a {
 .latest-post-contents span {
     font-size: 0.8rem;
     color: #aaa;
-
 }
 
 .latest-post-contents img {
     height: 60%;
     width: 100%;
 }
+
+
 /*  */
 
-.companies  *{
+.companies * {
     margin: 0;
 }
-.companies{
-    width: 85%;
+
+.companies {
+    width: 70%;
     margin: auto;
 }
+
 .companies-body {
+    margin-bottom: 6%;
     display: grid;
     grid-gap: 15px;
     grid-template-columns: repeat(4, 1fr);
-    
 }
-.comp-header{
-    /* border: 1px solid #000; */
+
+.comp-header {
+    margin-top: 5%;
+    margin-bottom: 2%;
     display: flex;
     padding: 5px 0;
     justify-content: space-between;
 }
-.comp-header h2{
+
+.comp-header h2 {
     color: red;
     font-size: 1.7rem;
 }
-.comp-header ul{
+
+.comp-header ul {
     display: flex;
     justify-content: space-between;
 }
-.comp-header ul li{
-    /* border: 1px solid #000; */
+
+.comp-header ul li {
     padding-top: 5px;
     margin-left: 15px;
     list-style: none;
-    /* padding-right: 5px; */
 }
+
 .comp-header ul li {
-    border-right: 1px solid #000;
-    border-color: #f42;
+    margin: 0 2px;
     padding-right: 5px;
     text-decoration: none;
-    color:#f42;
+    text-decoration-color: #f42;
     font-size: 1.1rem;
 }
-.comp-header ul li:last-child{
+
+.comp-header ul li:last-child {
     border-right: 0;
 }
-.comp-body{
-    /* border: 1px solid #000; */
+
+.comp-header a {
+    color: #f42;
+    text-decoration: none;
+}
+
+.comp-body {
     position: relative;
 }
-.body-content{
-    background: #FFEBE7;
+
+.body-content {
+    background: #ffeBe7;
     margin: 0;
 }
-.body-content p{
+
+.body-content p {
     text-align: center;
-    
 }
-.body-content p:first-child{
+
+.body-content p:first-child {
     font-weight: bold;
     font-size: 1.2em;
     padding-top: 15px;
 }
-.body-content p:last-child{
+
+.body-content p:last-child {
     padding-bottom: 15px;
     font-size: .7rem;
 }
-.comp-body img{
+
+.comp-body img {
     width: 40px;
     height: auto;
     position: absolute;
     top: 15px;
     left: 15px;
 }
-.body-header{
-    background: #FB463C;
+
+.body-header {
+    background: #fb463c;
 }
-.body-header h2{
+
+.body-header h2 {
     text-align: center;
     font-size: 1.2rem;
     color: #fff;
     padding: 5px 0;
 }
-.section-one{
+
+.section-one {
     /* padding: 15px 0; */
     padding: 20px;
-    border-bottom: 1px solid rgba(255,68,34,.25);
+    border-bottom: 1px solid rgba(255, 68, 34, .25);
 }
-.section-one p:last-child{
+
+.section-one p:last-child {
     margin-top: 15px;
 }
-.section-two a{
+
+.section-two a {
     text-decoration: none;
-    color: #aaa;;
+    color: #aaa;
+    ;
 }
+
+
 /*apps gear tech  */
+
 .post-news * {
     margin: 0;
 }
-.post-news{
-    /* border: 1px solid red; */
+
+.post-news {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 15px;
     row-gap: 25px;
-    width: 85%;
+    width: 70%;
     margin: auto;
 }
-.post-news-updates{
-    /* border: 1px solid #000; */
+
+.post-news-updates h2 {
+    color: #f42;
+    font-weight: bolder;
+    margin-bottom: 2%;
 }
-.latest img{
-    width: 100px;
-    height: auto;
+
+.header-img1 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-1-1-796x417.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img1{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-1-1-796x417.jpg");
-    height: 250px;
+
+.header-img2 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F06%2FMate-X.jpg&signature=ae2465db6c5f9885c2e982d18a1421d7") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img2{
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F06%2FMate-X.jpg&signature=ae2465db6c5f9885c2e982d18a1421d7");
-    height: 250px;
+
+.header-img3 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design2-796x417.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img3{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Untitled-design2-796x417.png");
-    height: 250px;
+
+.header-img4 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img4{
-    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png");
-    height: 250px;
+
+.header-img5 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FUntitled-design121.png&signature=871749e6acf570b6ee9d81754510d4a3") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img5{
-    background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FUntitled-design121.png&signature=871749e6acf570b6ee9d81754510d4a3");
-    height: 250px;
+
+.header-img6 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/PVtrump-796x436.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img6{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/PVtrump-796x436.jpg");
-    height: 250px;
+
+.header-img7 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img7{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg");
-    height: 250px;
+
+.header-img8 {
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Annotation-2019-10-15-141141-796x452.png") no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
-.header-img8{
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Disney-Plus-796x417.jpg");
-    height: 250px;
-}
-.latest{
+
+.latest {
     display: flex;
 }
-.text-header{
+
+.text-header {
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    height: 250px;
 }
-.latest{
-    color:#f42;
+
+.latest {
+    color: #f42;
+    background: #ffeBe7;
+    height: 80px;
 }
-.latest-list-updates{
-    color:grey;
+
+.latest img {
+    width: 100px;
+    height: 100%;
 }
-.latest-list-updates li::before{
-    content: "\2022"; 
-  color: red; 
-  /* font-weight: bold;  */
-  display: inline-block; 
-  width: 1em; 
-  margin-left: -1em; 
+
+
+/* .latest {
+    width: 100px;
+    height: 100%;
+} */
+
+.latest-list-updates {
+    color: grey;
+}
+
+.updates-list-items {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.latest-list-updates li::before {
+    content: "\2022";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
