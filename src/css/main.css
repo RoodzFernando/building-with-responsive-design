@@ -529,7 +529,6 @@
                         font-size: 1.2rem;
                     }
                     .latest-news {
-                        border: 1px solid blue;
                         display: grid;
                         grid-template-columns: 1fr;
                         width: 98vw;
@@ -583,7 +582,6 @@
                         width: 100vw;
                     }
                     .bottom-updates {
-                        border: 1px solid blue;
                         display: grid;
                         grid-template-columns: 1fr;
                         width: 98vw;
