@@ -507,3 +507,47 @@ footer {
 .love {
     color: red;
 }
+
+@media screen and (max-width:500px){
+    .upcoming{
+        grid-template-rows: repeat(3, 150px);
+        grid-template-areas:
+        "distract"
+        "gear"
+        "insight";
+        font-size: 0.8rem;
+    }
+    .distract{
+        width: 98vw;
+        margin: auto;
+    }
+    .news-header h2{
+        /* border: 1px solid yellow; */
+        display: inline-block;
+        /* margin-top: 10px; */
+        padding-bottom: 0;
+        margin-left: 0;
+        font-size: 1.2rem;
+
+
+    }
+    .latest-news{
+        border: 1px solid blue;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 98vw;
+        margin: auto;
+        /* margin-top: 100px; */
+    }
+    .latest-post-contents{
+        /* display: grid;
+        grid-template-columns: 1fr; */
+        display: flex;
+        /* flex-direction: column; */
+        border: 1px solid #000;
+    }
+    .latest-post-contents img{
+        width: 100px;
+        height: auto;
+    }
+}
