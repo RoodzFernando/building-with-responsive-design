@@ -1,20 +1,42 @@
 /* General rules */
-
+header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FDFDFD;
+    border: 1px solid red;
+}
 .top-header {
     display: flex;
-    justify-content: space-between;
-    position: fixed;
+    /* justify-content: space-between; */
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 
 .logo {
     width: 100px;
     height: 50px;
 }
-
-.nav-links {
+.button-links{
     display: flex;
+    width: 91%;
+    justify-content: space-between;
+    /* border: 1px solid green; */
 }
 
+.nav-links li{
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    display: inline-block;
+}
+/* .search-button{
+    display: flex; 
+    align-items: center; 
+    border: 1px solid black;
+} */
 header li {
     list-style: none;
     margin-right: 1.2em;
@@ -26,12 +48,25 @@ header a {
     text-transform: uppercase;
 }
 
-.search-button {
-    display: flex;
-    width: 50%;
-    justify-content: flex-end;
-}
 
+.search-button a{
+    /* display: flex; */
+    /* width: 40%; */
+    /* justify-content: flex-start; */
+    border: 1px solid maroon;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+   
+}
+.search-button [type="button"]{
+    background: forestgreen;
+    height: 50px;
+    width: 50px;
+    border: 0;
+    text-transform: uppercase;
+}
 
 /*  */
 
@@ -43,6 +78,9 @@ header a {
     margin-top: 1px;
     margin-bottom: 3px;
     position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100vw;
 }
 
 .blockchain p {
@@ -57,6 +95,8 @@ header a {
     height: 500px;
     grid-gap: 10px;
     color: white;
+    margin: 0 5px;
+    margin-top: 70px;
 }
 
 .upcoming a {
@@ -67,16 +107,22 @@ header a {
 .gear {
     grid-area: gear;
     background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2016%2F04%2FiPhoneSE10TNW.jpg&signature=bc7b45ce8b94fcc92e6790ecb27b1503");
+    padding: 15px;
 }
 
 .insight {
     grid-area: insight;
     background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F04%2Fsextortion-blockchain-cryptocurrency-bitcoin-masturbation-video-hack.jpg&signature=dd33197d6fdcc80391ee010ad5414fb3");
+    padding: 10px;
 }
 
 .distract {
     grid-area: distract;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Fortnite-Black-Hole-796x417.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 15px;
 }
 
 .news-header {
@@ -217,7 +263,12 @@ header a {
     color: #fff;
     padding: 5px 0;
 }
-
+.comp-footer{
+    color:grey;
+}
+.comp-footer i{
+    color:black;
+}
 .section-one {
     padding: 20px;
     border-bottom: 1px solid rgba(255, 68, 34, .25);
@@ -326,14 +377,11 @@ header a {
     height: 100%;
 }
 
-.latest-list-updates {
-    color: grey;
-}
-
 .updates-list-items {
     padding-top: 5px;
     padding-bottom: 5px;
     border-bottom: 1px solid gray;
+    color: grey;
 }
 
 .latest-list-updates li::before {
@@ -383,6 +431,7 @@ header a {
 .old-price {
     color: lightgray;
     font-size: 0.8em;
+    text-decoration: line-through;
 }
 
 .new-price {
