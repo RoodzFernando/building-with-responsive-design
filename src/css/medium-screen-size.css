@@ -1,59 +1,74 @@
-/* @media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:769px) and (max-width: 1024px) {
+    main {
+        width: 98vw;
+        margin: 0 auto;
+    }
+    .logo {
+        display: block;
+    }
+    .button-links {
+        display: flex;
+    }
+    .nav-links {
+        /* display: none; */
+        /* border: 1px solid #000;
+        margin-left: 0; */
+    }
+    .top-links {
+        font-size: 0.8em;
+    }
+    .humburger .fas {
+        color: red;
+    }
     .hamser {
         display: flex;
-        width: 60px;
     }
-    .hamser>* {
-        padding-top: 25%;
-        font-size: 25px;
-    }
-    .search {
-        padding-right: 5px;
-    }
-    .humburger {
-        display: block;
-        border-left: lightgray solid 1px;
-        padding-left: 5px;
-    }
-    .humburger i {
-        color: #f42;
+    .blockchain {
+        margin-top: 20px;
     }
     .upcoming {
-        grid-template-rows: repeat(3, 150px);
-        grid-template-areas: "distract""gear""insight";
-        font-size: 0.6rem;
+        display: grid;
+        width: 97vw;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "distract distract""gear""insight";
+        font-size: 0.8rem;
+        height: 400px;
+        /* padding: 0;
+        margin-top: 100px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto; */
     }
-    .distract {
-        width: 98vw;
-        margin: auto;
+    .upcoming>* {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .news-header {
+        margin: 0;
     }
     .news-header h2 {
         display: inline-block;
         padding-bottom: 0;
-        margin-left: 0;
-        font-size: 1.2rem;
+        margin-left: 1%;
+        font-size: 2rem;
     }
     .latest-news {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* grid-template-columns: 1fr 1fr; */
         width: 98vw;
         margin: auto;
     }
     .latest-post-contents {
-        display: flex;
-        border: 1px solid #000;
+        /* display: flex; */
+        /* border: 1px solid #000; */
     }
     .latest-post-contents img {
-        width: 100px;
-        height: 100px;
+        /* width: 100px;
+        height: 100px; */
     }
     .companies {
-        width: 90vw;
-        margin: 0 auto;
-    }
-    .companies-body {
-        display: flex;
-        flex-direction: column;
         width: 90vw;
         margin: 0 auto;
     }
@@ -63,6 +78,7 @@
         display: flex;
         padding: 5px 0;
         flex-direction: column;
+        border: 1px solid #000;
     }
     .comp-header h2 {
         font-size: 2rem;
@@ -74,9 +90,14 @@
         margin-left: 0;
     }
     .comp-header ul li {
-        font-size: 0.8em;
+        font-size: 1em;
         border: none;
         padding: 0;
+    }
+    .companies-body {
+        display: grid;
+        width: 90vw;
+        margin: 0 auto;
     }
     .post-news {
         display: flex;
@@ -99,4 +120,4 @@
     .bottom-updates-items {
         display: flex;
     }
-} */
+}
