@@ -2,6 +2,12 @@
     .nav-links {
         display: none;
     }
+    .top-links {
+        display: none;
+    }
+    .logo {
+        display: block;
+    }
     .hamser {
         display: flex;
         width: 60px;
@@ -20,6 +26,9 @@
     }
     .humburger i {
         color: #f42;
+    }
+    .blockchain {
+        border: 1px solid #000;
     }
     .upcoming {
         grid-template-rows: repeat(3, 150px);

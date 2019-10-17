@@ -1,7 +1,4 @@
 @media (min-width:769px) and (max-width: 1024px) {
-    .nav-links {
-        display: none;
-    }
     .hamser {
         display: flex;
         width: 60px;
