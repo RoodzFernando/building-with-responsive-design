@@ -19,7 +19,7 @@
                 border: 0;
                 margin-top: 0px;
                 background: #131313;
-                border: 1px solid red;
+                /* border: 1px solid red; */
                 line-height: 2;
                 justify-content: space-between;
             }
@@ -39,8 +39,13 @@
             
             .button-links {
                 display: flex;
-                width: 91%;
+                /*  width: 91%;
+                justify-content: space-between; */
+                width: 100vw;
+                display: flex;
+                /* border: 1px solid #000; */
                 justify-content: space-between;
+                background: #fdfdfd;
             }
             
             .nav-links {
@@ -51,6 +56,24 @@
             
             .nav-links li {
                 display: inline-block;
+            }
+            
+            .hamser button {
+                height: 50px;
+                width: 50px;
+                background: #fdfdfd;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: grey;
+                border: 0;
+                border-left: 1px solid gray;
+                cursor: pointer;
+            }
+            
+            .hamser .fas {
+                font-size: 25px;
             }
             
             .humburger {

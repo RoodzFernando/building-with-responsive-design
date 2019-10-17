@@ -1,34 +1,27 @@
 @media (max-width: 768px) {
+    .logo {
+        display: block;
+    }
+    .button-links {
+        display: flex;
+    }
     .nav-links {
         display: none;
     }
     .top-links {
         display: none;
     }
-    .logo {
+    .humburger {
         display: block;
+    }
+    .humburger .fas {
+        color: red;
     }
     .hamser {
         display: flex;
-        width: 60px;
-    }
-    .hamser>* {
-        padding-top: 25%;
-        font-size: 25px;
-    }
-    .search {
-        padding-right: 5px;
-    }
-    .humburger {
-        display: block;
-        border-left: lightgray solid 1px;
-        padding-left: 5px;
-    }
-    .humburger i {
-        color: #f42;
     }
     .blockchain {
-        border: 1px solid #000;
+        margin-top: 0;
     }
     .upcoming {
         grid-template-rows: repeat(3, 150px);
@@ -53,7 +46,7 @@
     }
     .latest-post-contents {
         display: flex;
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
     }
     .latest-post-contents img {
         width: 100px;
