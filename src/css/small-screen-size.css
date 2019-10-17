@@ -46,7 +46,6 @@
     }
     .latest-post-contents {
         display: flex;
-        /* border: 1px solid #000; */
     }
     .latest-post-contents img {
         width: 100px;
