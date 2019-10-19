@@ -30,10 +30,11 @@
         grid-template-rows: repeat(3, 150px);
         grid-template-areas: "distract""gear""insight";
         font-size: 0.6rem;
+        margin-top: 85px;
     }
     .distract {
         width: 98vw;
-        margin: auto;
+        margin: 0 auto;
     }
     .news-header h2 {
         display: inline-block;

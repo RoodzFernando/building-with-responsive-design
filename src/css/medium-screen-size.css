@@ -1,8 +1,4 @@
 @media (min-width:769px) and (max-width: 1024px) {
-    main {
-        width: 98vw;
-        margin: 0 auto;
-    }
     .logo {
         display: block;
     }
@@ -38,7 +34,7 @@
         margin: 0 auto;
     }
     .news-header {
-        margin: 0;
+        margin-left: 55px;
     }
     .news-header h2 {
         display: inline-block;
@@ -49,8 +45,7 @@
     .latest-news {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        width: 98vw;
-        margin: auto;
+        margin: 0 auto;
     }
     .companies {
         width: 90vw;
@@ -80,22 +75,22 @@
         width: 90vw;
         margin: 0 auto;
     }
+    .body-header .med {
+        text-align: right;
+    }
     .post-news {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 5%;
-        margin-bottom: 2%;
-        padding: 0;
+        grid-template-columns: 45% 45%;
         width: 98vw;
+        justify-content: center;
     }
     .bottom-header {
-        width: 95vw;
+        width: 85vw;
     }
     .bottom-header h3 {
         font-size: 24px;
     }
     .bottom-updates {
-        width: 98vw;
-        margin: auto;
+        margin: 0 auto;
     }
 }
