@@ -1,0 +1,118 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo {
+        display: block;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
+    .button-links {
+        display: flex;
+    }
+
+    .top-links {
+        font-size: 0.8em;
+    }
+
+    .humburger .fas {
+        color: red;
+    }
+
+    .hamser {
+        display: flex;
+    }
+
+    .blockchain {
+        margin-top: 20px;
+    }
+
+    .upcoming {
+        display: grid;
+        width: 97vw;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "distract distract""gear""insight";
+        font-size: 0.8rem;
+        height: 400px;
+    }
+
+    .upcoming > * {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .news-header {
+        margin-left: 55px;
+    }
+
+    .news-header h2 {
+        display: inline-block;
+        padding-bottom: 0;
+        margin-left: 1%;
+        font-size: 2rem;
+    }
+
+    .latest-news {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        margin: 0 auto;
+    }
+
+    .companies {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .comp-header {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        display: flex;
+        padding: 5px 0;
+        flex-direction: column;
+    }
+
+    .comp-header h2 {
+        font-size: 2rem;
+    }
+
+    .comp-header ul {
+        display: flex;
+        float: left;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .comp-header ul li {
+        font-size: 1em;
+    }
+
+    .companies-body {
+        display: grid;
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    .body-header .med {
+        text-align: right;
+    }
+
+    .post-news {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        width: 98vw;
+        justify-content: center;
+    }
+
+    .bottom-header {
+        width: 85vw;
+    }
+
+    .bottom-header h3 {
+        font-size: 24px;
+    }
+
+    .bottom-updates {
+        margin: 0 auto;
+    }
+}
