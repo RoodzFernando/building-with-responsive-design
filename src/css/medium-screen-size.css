@@ -35,7 +35,7 @@
         font-size: 0.8rem;
         height: 400px;
     }
-    
+
     .upcoming > * {
         width: 100%;
         padding: 0;
@@ -116,5 +116,3 @@
         margin: 0 auto;
     }
 }
-
-
