@@ -1,88 +1,87 @@
 @media (max-width: 768px) {
-    
     .logo {
         display: block;
     }
-    
+
     .logo2 {
         display: none;
     }
-    
+
     .button-links {
         display: flex;
     }
-    
+
     .nav-links {
         display: none;
     }
-    
+
     .top-links {
         display: none;
     }
-    
+
     .humburger {
         display: block;
     }
-    
+
     .humburger .fas {
         color: red;
     }
-    
+
     .hamser {
         display: flex;
     }
-    
+
     .blockchain {
         margin-top: 0;
     }
-    
+
     .upcoming {
         grid-template-rows: repeat(3, 150px);
         grid-template-areas: "distract""gear""insight";
         font-size: 0.6rem;
         margin-top: 85px;
     }
-    
+
     .distract {
         width: 98vw;
         margin: 0 auto;
     }
-    
+
     .news-header h2 {
         display: inline-block;
         padding-bottom: 0;
         margin-left: 0;
         font-size: 1.2rem;
     }
-    
+
     .latest-news {
         display: grid;
         grid-template-columns: 1fr;
         width: 98vw;
         margin: auto;
     }
-    
+
     .latest-post-contents {
         display: flex;
     }
-    
+
     .latest-post-contents img {
         width: 100px;
         height: 100px;
     }
-    
+
     .companies {
         width: 90vw;
         margin: 0 auto;
     }
-    
+
     .companies-body {
         display: flex;
         flex-direction: column;
         width: 90vw;
         margin: 0 auto;
     }
-    
+
     .comp-header {
         margin-top: 5%;
         margin-bottom: 2%;
@@ -90,24 +89,24 @@
         padding: 5px 0;
         flex-direction: column;
     }
-    
+
     .comp-header h2 {
         font-size: 2rem;
     }
-    
+
     .comp-header ul {
         display: flex;
         flex-direction: column;
         float: left;
         margin-left: 0;
     }
-    
+
     .comp-header ul li {
         font-size: 0.8em;
         border: none;
         padding: 0;
     }
-    
+
     .post-news {
         display: flex;
         margin-top: 5%;
@@ -116,14 +115,14 @@
         flex-direction: column;
         width: 100vw;
     }
-    
+
     .bottom-updates {
         display: grid;
         grid-template-columns: 1fr;
         width: 98vw;
         margin: auto;
     }
-    
+
     .bottom-updates img {
         width: 100px;
         height: 100px;
