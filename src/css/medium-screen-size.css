@@ -1,5 +1,4 @@
 @media (min-width: 769px) and (max-width: 1024px) {
-    
     .logo {
         display: block;
     }
@@ -36,7 +35,6 @@
         font-size: 0.8rem;
         height: 400px;
     }
-    
     .upcoming>* {
         width: 100%;
         padding: 0;
@@ -117,3 +115,4 @@
         margin: 0 auto;
     }
 }
+
