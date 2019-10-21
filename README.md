@@ -20,6 +20,7 @@ You can find the original project specification [here](https://www.theodinprojec
 - Flex & Grids
 - FontAwsome v5.11.2
 - MarkDown Syntax
+- Stickler & Linter
 
 ## Work Done
 
