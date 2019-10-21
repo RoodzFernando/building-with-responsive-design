@@ -45,4 +45,4 @@ You can find the original project specification [here](https://www.theodinprojec
 - open command prompt in `building-with-responsive-design` folder
 - run the application using open live server functionality.
 
-LInk to live demo [here](https://RoodzFernando.github.io/building-with-responsive-design/.)
+LInk to live demo [here](https://roodzfernando.github.io/building-with-responsive-design/)
