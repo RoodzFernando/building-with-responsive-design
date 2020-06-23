@@ -44,10 +44,8 @@ You can find the original project specification [here](https://www.theodinprojec
 - open command prompt in `building-with-responsive-design` folder
 - run the application using open live server functionality.
 
-<<<<<<< HEAD
 LInk to live demo [here](https://roodzfernando.github.io/building-with-responsive-design/)
-=======
-LInk to live demo [here](https://RoodzFernando.github.io/building-with-responsive-design/.)
+
 
 ## Authors social links
 
@@ -62,4 +60,3 @@ LInk to live demo [here](https://RoodzFernando.github.io/building-with-responsiv
 - Github: [@christianotieno](https://github.com/christianotieno)
 - Twitter: [@iamchrisotieno](https://twitter.com/iamchrisotieno)
 - Linkedin: [Christian Otieno](https://www.linkedin.com/in/christianotieno/)
->>>>>>> design-branch
