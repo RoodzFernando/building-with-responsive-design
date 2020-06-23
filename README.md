@@ -6,11 +6,10 @@
 
 You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-## Authors
 
-[Roodz Fernando](https://github.com/RoodzFernando)
-
-[Christian Otieno](https://github.com/ChristianOtieno)
+|Source Page|The cloned page screenshot|
+|:---:|:---:|
+|![Screeenshot](./src/img/screenshot-2.png " TNW page screenshot")|![Screeenshot](./src/img/screenshot.png "Cloned TNW page screenshot")|
 
 ## Tools Used
 
@@ -45,4 +44,22 @@ You can find the original project specification [here](https://www.theodinprojec
 - open command prompt in `building-with-responsive-design` folder
 - run the application using open live server functionality.
 
+<<<<<<< HEAD
 LInk to live demo [here](https://roodzfernando.github.io/building-with-responsive-design/)
+=======
+LInk to live demo [here](https://RoodzFernando.github.io/building-with-responsive-design/.)
+
+## Authors social links
+
+### 1. Roodz Fernando
+
+- Github: [@RoodzFernando](https://github.com/RoodzFernando)
+- Twitter: [@RoodzFernando](https://twitter.com/RoodzFernando)
+- Linkedin: [Roodz Fernando](https://www.linkedin.com/in/roodz-fernando-fleurant/)
+
+### 2. Christian Otieno
+
+- Github: [@christianotieno](https://github.com/christianotieno)
+- Twitter: [@iamchrisotieno](https://twitter.com/iamchrisotieno)
+- Linkedin: [Christian Otieno](https://www.linkedin.com/in/christianotieno/)
+>>>>>>> design-branch
